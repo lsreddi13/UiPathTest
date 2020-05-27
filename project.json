@@ -1,0 +1,62 @@
+{
+  "name": "crm",
+  "description": "Test Automation Project",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.System.Activities": "[20.4.0]",
+    "UiPath.Testing.Activities": "[1.0.0]",
+    "UiPath.UIAutomation.Activities": "[20.4.1]"
+  },
+  "webServices": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "20.4.1.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "isPausable": true,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Tests",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "fileInfoCollection": [
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "0fa275c6-c8bc-405b-9508-60693beb8172",
+        "fileName": "LoginLogout.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "0997aecc-9dd0-4c95-b4d9-a85f22dd5055",
+        "fileName": "NewContact.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "a767f85a-767d-433b-b0f2-e53535792843",
+        "fileName": "getContact.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "84116ba7-2219-40e7-a8cc-f9bc3cddc5f9",
+        "fileName": "NewContactFromXl.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "c17123f7-cee0-4b2c-a4e8-75bdcc07d0f5",
+        "dataVariationFilePath": ".variations\\crmTestdata_Contacts.json",
+        "fileName": "DD_NewContact.xaml"
+      }
+    ]
+  },
+  "expressionLanguage": "VisualBasic"
+}
