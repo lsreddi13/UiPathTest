@@ -3,6 +3,7 @@
   "description": "Test Automation Project",
   "main": "Main.xaml",
   "dependencies": {
+    "UiPath.Excel.Activities": "[2.8.5]",
     "UiPath.System.Activities": "[20.4.0]",
     "UiPath.Testing.Activities": "[1.0.0]",
     "UiPath.UIAutomation.Activities": "[20.4.1]"
@@ -31,12 +32,12 @@
     },
     "fileInfoCollection": [
       {
-        "editingStatus": "InProgress",
+        "editingStatus": "Publishable",
         "testCaseId": "0fa275c6-c8bc-405b-9508-60693beb8172",
         "fileName": "LoginLogout.xaml"
       },
       {
-        "editingStatus": "InProgress",
+        "editingStatus": "Publishable",
         "testCaseId": "0997aecc-9dd0-4c95-b4d9-a85f22dd5055",
         "fileName": "NewContact.xaml"
       },
@@ -51,9 +52,9 @@
         "fileName": "NewContactFromXl.xaml"
       },
       {
-        "editingStatus": "InProgress",
-        "testCaseId": "c17123f7-cee0-4b2c-a4e8-75bdcc07d0f5",
-        "dataVariationFilePath": ".variations\\crmTestdata_Contacts.json",
+        "editingStatus": "Publishable",
+        "testCaseId": "36435574-5963-4390-8b6a-e5a5a3c2642c",
+        "dataVariationFilePath": ".variations\\crmTestdata_Contacts_1.json",
         "fileName": "DD_NewContact.xaml"
       }
     ]

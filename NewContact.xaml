@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="TestCase" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="720,3658.66666666667" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uta="clr-namespace:UiPath.Testing.Activities;assembly=UiPath.Testing.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="TestCase" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="720,3560" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uta="clr-namespace:UiPath.Testing.Activities;assembly=UiPath.Testing.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="21">
       <x:String>System.Activities</x:String>
@@ -46,46 +46,26 @@
       <AssemblyReference>UiPath.CV</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap:VirtualizedContainerService.HintSize="730,3494" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap:VirtualizedContainerService.HintSize="730,3395.33333333333" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:OpenBrowser CommunicationMethod="{x:Null}" Hidden="{x:Null}" NewSession="{x:Null}" Private="{x:Null}" UiBrowser="{x:Null}" BrowserType="Chrome" DisplayName="Open Browser" sap:VirtualizedContainerService.HintSize="688,3402" sap2010:WorkflowViewState.IdRef="OpenBrowser_1" Url="https://ui.freecrm.com/">
+    <ui:OpenBrowser CommunicationMethod="{x:Null}" Hidden="{x:Null}" NewSession="{x:Null}" Private="{x:Null}" UiBrowser="{x:Null}" BrowserType="Chrome" DisplayName="Open Browser" sap:VirtualizedContainerService.HintSize="688,3303.33333333333" sap2010:WorkflowViewState.IdRef="OpenBrowser_1" Url="https://ui.freecrm.com/">
       <ui:OpenBrowser.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="ContextTarget" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="654,3299.33333333333" sap2010:WorkflowViewState.IdRef="Sequence_2">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="654,3200.66666666667" sap2010:WorkflowViewState.IdRef="Sequence_2">
             <Sequence.Variables>
-              <Variable x:TypeArguments="x:String" Name="FName">
-                <Variable.Default>
-                  <Literal x:TypeArguments="x:String">QAFirst</Literal>
-                </Variable.Default>
-              </Variable>
-              <Variable x:TypeArguments="x:String" Name="LName">
-                <Variable.Default>
-                  <Literal x:TypeArguments="x:String">LastNameQA</Literal>
-                </Variable.Default>
-              </Variable>
-              <Variable x:TypeArguments="x:String" Name="MName">
-                <Variable.Default>
-                  <Literal x:TypeArguments="x:String">MiddleNameQA</Literal>
-                </Variable.Default>
-              </Variable>
-              <Variable x:TypeArguments="x:String" Name="CompanyName">
-                <Variable.Default>
-                  <Literal x:TypeArguments="x:String">PramatiQA</Literal>
-                </Variable.Default>
-              </Variable>
+              <Variable x:TypeArguments="x:String" Default="QAFirst" Name="FName" />
+              <Variable x:TypeArguments="x:String" Default="LastNameQA" Name="LName" />
+              <Variable x:TypeArguments="x:String" Default="MiddleNameQA" Name="MName" />
+              <Variable x:TypeArguments="x:String" Default="PramatiQA" Name="CompanyName" />
               <Variable x:TypeArguments="x:String" Name="FL" />
-              <Variable x:TypeArguments="x:String" Name="Name">
-                <Variable.Default>
-                  <mva:VisualBasicValue x:TypeArguments="x:String" ExpressionText="FName+&quot; &quot;+LName" />
-                </Variable.Default>
-              </Variable>
+              <Variable x:TypeArguments="x:String" Default="[FName+&quot; &quot;+LName]" Name="Name" />
               <Variable x:TypeArguments="x:String" Name="Names" />
             </Sequence.Variables>
             <sap:WorkflowViewStateService.ViewState>
@@ -334,7 +314,6 @@
                 <OutArgument x:TypeArguments="x:String">[Names]</OutArgument>
               </ui:GetValue.Value>
             </ui:GetValue>
-            <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="612,58.6666666666667" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[Names]" />
             <uta:VerifyExpressionWithOperator ContinueOnFailure="True" DisplayName="Verify Expression with Operator" sap:VirtualizedContainerService.HintSize="612,62.6666666666667" sap2010:WorkflowViewState.IdRef="VerifyExpressionWithOperator_1" Operator="Equality" TakeScreenshotInCaseOfFailingAssertion="False">
               <uta:VerifyExpressionWithOperator.FirstExpression>
                 <InArgument x:TypeArguments="x:String">[Names]</InArgument>
