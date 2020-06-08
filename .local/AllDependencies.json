@@ -2,6 +2,18 @@
   "version": 3,
   "targets": {
     ".NETFramework,Version=v4.6.1": {
+      "AdvanceExcel/1.0.9": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Office.Interop.Excel": "15.0.4795.1000"
+        },
+        "compile": {
+          "lib/_._": {}
+        },
+        "runtime": {
+          "lib/Advance Excel.dll": {}
+        }
+      },
       "AutoMapper/9.0.0": {
         "type": "package",
         "frameworkAssemblies": [
@@ -129,6 +141,15 @@
         },
         "runtime": {
           "lib/net45/Microsoft.AspNet.SignalR.Client.dll": {}
+        }
+      },
+      "Microsoft.Office.Interop.Excel/15.0.4795.1000": {
+        "type": "package",
+        "compile": {
+          "lib/net20/_._": {}
+        },
+        "runtime": {
+          "lib/net20/Microsoft.Office.Interop.Excel.dll": {}
         }
       },
       "Microsoft.Rest.ClientRuntime/2.3.20": {
@@ -837,6 +858,96 @@
           }
         }
       },
+      "UiPath.UIAutomationNext.Activities/20.4.1": {
+        "type": "package",
+        "dependencies": {
+          "AvalonEdit": "5.0.3",
+          "Extended.Wpf.Toolkit": "2.8.0",
+          "Newtonsoft.Json": "11.0.2",
+          "System.IO.Abstractions": "3.0.10",
+          "System.ValueTuple": "4.5.0",
+          "UiPath": "[20.4.7422.14731]",
+          "UiPath.Platform": "20.4.0",
+          "UiPath.Telemetry.Client": "1.1.51",
+          "UiPath.Vision": "2.0.3"
+        },
+        "compile": {
+          "lib/net461/_._": {}
+        },
+        "runtime": {
+          "lib/net461/UiPath.UIAutomationNext.Activities.Design.dll": {},
+          "lib/net461/UiPath.UIAutomationNext.Activities.dll": {},
+          "lib/net461/UiPath.UIAutomationNext.dll": {}
+        },
+        "resource": {
+          "lib/net461/de/UiPath.UIAutomationNext.Activities.Design.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net461/de/UiPath.UIAutomationNext.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net461/es-MX/UiPath.UIAutomationNext.Activities.Design.resources.dll": {
+            "locale": "es-MX"
+          },
+          "lib/net461/es-MX/UiPath.UIAutomationNext.resources.dll": {
+            "locale": "es-MX"
+          },
+          "lib/net461/es/UiPath.UIAutomationNext.Activities.Design.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net461/es/UiPath.UIAutomationNext.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net461/fr/UiPath.UIAutomationNext.Activities.Design.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net461/fr/UiPath.UIAutomationNext.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net461/ja/UiPath.UIAutomationNext.Activities.Design.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net461/ja/UiPath.UIAutomationNext.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net461/ko/UiPath.UIAutomationNext.Activities.Design.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net461/ko/UiPath.UIAutomationNext.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net461/pt-BR/UiPath.UIAutomationNext.Activities.Design.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net461/pt-BR/UiPath.UIAutomationNext.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net461/pt/UiPath.UIAutomationNext.Activities.Design.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net461/pt/UiPath.UIAutomationNext.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net461/ru/UiPath.UIAutomationNext.Activities.Design.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net461/ru/UiPath.UIAutomationNext.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net461/tr/UiPath.UIAutomationNext.Activities.Design.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net461/tr/UiPath.UIAutomationNext.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net461/zh-cn/UiPath.UIAutomationNext.Activities.Design.resources.dll": {
+            "locale": "zh-cn"
+          },
+          "lib/net461/zh-cn/UiPath.UIAutomationNext.resources.dll": {
+            "locale": "zh-cn"
+          }
+        }
+      },
       "UiPath.Vision/2.0.3": {
         "type": "package",
         "dependencies": {
@@ -849,10 +960,58 @@
           "lib/net461/UiPath.Vision.Core.dll": {},
           "lib/net461/UiPath.Vision.dll": {}
         }
+      },
+      "UiPathTeam.Excel.Extensions.Activities/1.0.7107.42453": {
+        "type": "package",
+        "compile": {
+          "lib/net451/_._": {}
+        },
+        "runtime": {
+          "lib/net451/Excel.Activites.Design.dll": {},
+          "lib/net451/Excel.Activities.dll": {}
+        }
+      },
+      "UiPathTeam.ExcelSheetToImage.Activities/1.0.0.3": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Office.Interop.Excel": "15.0.4795.1000"
+        },
+        "compile": {
+          "lib/net452/_._": {}
+        },
+        "runtime": {
+          "lib/net452/ExcelSheetToImage.dll": {}
+        }
+      },
+      "UiPathTeam.XLExcel.Activities/1.0.6814.30102": {
+        "type": "package",
+        "dependencies": {
+          "DocumentFormat.OpenXml": "2.5.0",
+          "Microsoft.Office.Interop.Excel": "15.0.4795.1000"
+        },
+        "compile": {
+          "lib/net452/_._": {}
+        },
+        "runtime": {
+          "lib/net452/UiPathTeam.XLExcel.Activities.Design.dll": {},
+          "lib/net452/UiPathTeam.XLExcel.Activities.dll": {},
+          "lib/net452/UiPathTeam.XLExcel.dll": {}
+        }
       }
     }
   },
   "libraries": {
+    "AdvanceExcel/1.0.9": {
+      "sha512": "gZD2KvqwQnyy07BdDHEKEU2Pw4MBEm8V9HI5KVOTipRC4AVqzvxhWwdSboDRDutZAceZfpN1Mj7BuPquy6cjkw==",
+      "type": "package",
+      "path": "advanceexcel/1.0.9",
+      "files": [
+        ".nupkg.metadata",
+        "advanceexcel.1.0.9.nupkg.sha512",
+        "advanceexcel.nuspec",
+        "lib/Advance Excel.dll"
+      ]
+    },
     "AutoMapper/9.0.0": {
       "sha512": "xCqvoxT4HIrNY/xlXG9W+BA/awdrhWvMTKTK/igkGSRbhOhpl3Q8O8Gxlhzjc9JsYqE7sS6AxgyuUUvZ6R5/Bw==",
       "type": "package",
@@ -1000,6 +1159,18 @@
         "lib/netstandard2.0/Microsoft.AspNet.SignalR.Client.xml",
         "microsoft.aspnet.signalr.client.2.4.0.nupkg.sha512",
         "microsoft.aspnet.signalr.client.nuspec"
+      ]
+    },
+    "Microsoft.Office.Interop.Excel/15.0.4795.1000": {
+      "sha512": "DfceS96ustwfL8EOJNNRtpk6b0RylhjNpgeeemuvi9X4GYks2UTeAimjSrdFEfuqRo5ibZ4Sd0gJIeDr9gMa6Q==",
+      "type": "package",
+      "path": "microsoft.office.interop.excel/15.0.4795.1000",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net20/Microsoft.Office.Interop.Excel.dll",
+        "microsoft.office.interop.excel.15.0.4795.1000.nupkg.sha512",
+        "microsoft.office.interop.excel.nuspec"
       ]
     },
     "Microsoft.Rest.ClientRuntime/2.3.20": {
@@ -1602,6 +1773,96 @@
         "uipath.uiautomation.activities.nuspec"
       ]
     },
+    "UiPath.UIAutomationNext.Activities/20.4.1": {
+      "sha512": "fMufntML6DV2igXAMFJoBSa3lokoKd3uYuaQ1wKfMRGcSoD0664j6dEgjjnMRfXCZM9Daf+wpJuNYPS8BVlinw==",
+      "type": "package",
+      "path": "uipath.uiautomationnext.activities/20.4.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/ActiproSoftware.DataGrid.Contrib.Wpf.dll",
+        "build/ActiproSoftware.Docking.Wpf.dll",
+        "build/ActiproSoftware.Editors.Wpf.dll",
+        "build/ActiproSoftware.Ribbon.Wpf.dll",
+        "build/ActiproSoftware.Shared.Wpf.dll",
+        "build/ActiproSoftware.SyntaxEditor.Addons.DotNet.Wpf.dll",
+        "build/ActiproSoftware.SyntaxEditor.Wpf.dll",
+        "build/ActiproSoftware.Text.Addons.DotNet.Wpf.dll",
+        "build/ActiproSoftware.Text.LLParser.Wpf.dll",
+        "build/ActiproSoftware.Text.Wpf.dll",
+        "build/ActiproSoftware.Wizard.Wpf.dll",
+        "build/ICSharpCode.AvalonEdit.dll",
+        "build/System.ValueTuple.dll",
+        "build/UiExplorer.exe",
+        "build/UiExplorer.exe.config",
+        "build/UiExplorer_x64.exe",
+        "build/UiExplorer_x64.exe.config",
+        "build/UiPath.Activities.Contracts.dll",
+        "build/UiPath.UIAutomation.Activities.Design.dll",
+        "build/UiPath.UiAutomation.Activities.dll",
+        "build/de/UiExplorer.resources.dll",
+        "build/de/UiPath.UIAutomation.Activities.Design.resources.dll",
+        "build/de/UiPath.UiAutomation.Activities.resources.dll",
+        "build/es-MX/UiExplorer.resources.dll",
+        "build/es-MX/UiPath.UIAutomation.Activities.Design.resources.dll",
+        "build/es-MX/UiPath.UiAutomation.Activities.resources.dll",
+        "build/es/UiExplorer.resources.dll",
+        "build/es/UiPath.UIAutomation.Activities.Design.resources.dll",
+        "build/es/UiPath.UiAutomation.Activities.resources.dll",
+        "build/fr/UiExplorer.resources.dll",
+        "build/fr/UiPath.UIAutomation.Activities.Design.resources.dll",
+        "build/fr/UiPath.UiAutomation.Activities.resources.dll",
+        "build/ja/UiExplorer.resources.dll",
+        "build/ja/UiPath.UIAutomation.Activities.Design.resources.dll",
+        "build/ja/UiPath.UiAutomation.Activities.resources.dll",
+        "build/ko/UiExplorer.resources.dll",
+        "build/ko/UiPath.UIAutomation.Activities.Design.resources.dll",
+        "build/ko/UiPath.UiAutomation.Activities.resources.dll",
+        "build/pt-BR/UiExplorer.resources.dll",
+        "build/pt-BR/UiPath.UIAutomation.Activities.Design.resources.dll",
+        "build/pt-BR/UiPath.UiAutomation.Activities.resources.dll",
+        "build/pt/UiExplorer.resources.dll",
+        "build/pt/UiPath.UIAutomation.Activities.Design.resources.dll",
+        "build/pt/UiPath.UiAutomation.Activities.resources.dll",
+        "build/ru/UiExplorer.resources.dll",
+        "build/ru/UiPath.UIAutomation.Activities.Design.resources.dll",
+        "build/ru/UiPath.UiAutomation.Activities.resources.dll",
+        "build/tr/UiExplorer.resources.dll",
+        "build/tr/UiPath.UIAutomation.Activities.Design.resources.dll",
+        "build/tr/UiPath.UiAutomation.Activities.resources.dll",
+        "build/zh-CN/UiExplorer.resources.dll",
+        "build/zh-CN/UiPath.UIAutomation.Activities.Design.resources.dll",
+        "build/zh-CN/UiPath.UiAutomation.Activities.resources.dll",
+        "content/Resources/NodeMatchRules.xml",
+        "lib/net461/UiPath.UIAutomationNext.Activities.Design.dll",
+        "lib/net461/UiPath.UIAutomationNext.Activities.dll",
+        "lib/net461/UiPath.UIAutomationNext.dll",
+        "lib/net461/de/UiPath.UIAutomationNext.Activities.Design.resources.dll",
+        "lib/net461/de/UiPath.UIAutomationNext.resources.dll",
+        "lib/net461/es-MX/UiPath.UIAutomationNext.Activities.Design.resources.dll",
+        "lib/net461/es-MX/UiPath.UIAutomationNext.resources.dll",
+        "lib/net461/es/UiPath.UIAutomationNext.Activities.Design.resources.dll",
+        "lib/net461/es/UiPath.UIAutomationNext.resources.dll",
+        "lib/net461/fr/UiPath.UIAutomationNext.Activities.Design.resources.dll",
+        "lib/net461/fr/UiPath.UIAutomationNext.resources.dll",
+        "lib/net461/ja/UiPath.UIAutomationNext.Activities.Design.resources.dll",
+        "lib/net461/ja/UiPath.UIAutomationNext.resources.dll",
+        "lib/net461/ko/UiPath.UIAutomationNext.Activities.Design.resources.dll",
+        "lib/net461/ko/UiPath.UIAutomationNext.resources.dll",
+        "lib/net461/pt-BR/UiPath.UIAutomationNext.Activities.Design.resources.dll",
+        "lib/net461/pt-BR/UiPath.UIAutomationNext.resources.dll",
+        "lib/net461/pt/UiPath.UIAutomationNext.Activities.Design.resources.dll",
+        "lib/net461/pt/UiPath.UIAutomationNext.resources.dll",
+        "lib/net461/ru/UiPath.UIAutomationNext.Activities.Design.resources.dll",
+        "lib/net461/ru/UiPath.UIAutomationNext.resources.dll",
+        "lib/net461/tr/UiPath.UIAutomationNext.Activities.Design.resources.dll",
+        "lib/net461/tr/UiPath.UIAutomationNext.resources.dll",
+        "lib/net461/zh-cn/UiPath.UIAutomationNext.Activities.Design.resources.dll",
+        "lib/net461/zh-cn/UiPath.UIAutomationNext.resources.dll",
+        "uipath.uiautomationnext.activities.20.4.1.nupkg.sha512",
+        "uipath.uiautomationnext.activities.nuspec"
+      ]
+    },
     "UiPath.Vision/2.0.3": {
       "sha512": "tl1L/gV0kAAal7n+I/3XWcG3yRQES98J/lJ2u2Vanq9h1eqG0BoFw2MMCqTwRzO8n/0CVCbLLjn5V/OYfaQv7A==",
       "type": "package",
@@ -1668,15 +1929,56 @@
         "uipath.vision.2.0.3.nupkg.sha512",
         "uipath.vision.nuspec"
       ]
+    },
+    "UiPathTeam.Excel.Extensions.Activities/1.0.7107.42453": {
+      "sha512": "OAo8pQRq8FMxUFM43Bzv++RTm1IqcVNgjvHoeb9EzVKpUYem7WNxUv88tSZKrAc3Y1ukX/KbqEtdOaqXZVnaUQ==",
+      "type": "package",
+      "path": "uipathteam.excel.extensions.activities/1.0.7107.42453",
+      "files": [
+        ".nupkg.metadata",
+        "lib/net451/Excel.Activites.Design.dll",
+        "lib/net451/Excel.Activities.dll",
+        "uipathteam.excel.extensions.activities.1.0.7107.42453.nupkg.sha512",
+        "uipathteam.excel.extensions.activities.nuspec"
+      ]
+    },
+    "UiPathTeam.ExcelSheetToImage.Activities/1.0.0.3": {
+      "sha512": "myk75eAhpYS4hx103zAKbUQzj90SYnHyFYRviW+1QcWbL1b3K7HsZjn0mp1cmQuZl6/LgN/Puf/UPJqiJmCuow==",
+      "type": "package",
+      "path": "uipathteam.excelsheettoimage.activities/1.0.0.3",
+      "files": [
+        ".nupkg.metadata",
+        "lib/net452/ExcelSheetToImage.dll",
+        "uipathteam.excelsheettoimage.activities.1.0.0.3.nupkg.sha512",
+        "uipathteam.excelsheettoimage.activities.nuspec"
+      ]
+    },
+    "UiPathTeam.XLExcel.Activities/1.0.6814.30102": {
+      "sha512": "+/sUDX7jUnuBKppn2YilgUwNFREDWEf16jlg3/4FgvqBBm9EiAebYqE8VoEcNcEahdKNuhzk1RiWW32mPe1qaw==",
+      "type": "package",
+      "path": "uipathteam.xlexcel.activities/1.0.6814.30102",
+      "files": [
+        ".nupkg.metadata",
+        "lib/net452/UiPathTeam.XLExcel.Activities.Design.dll",
+        "lib/net452/UiPathTeam.XLExcel.Activities.dll",
+        "lib/net452/UiPathTeam.XLExcel.dll",
+        "uipathteam.xlexcel.activities.1.0.6814.30102.nupkg.sha512",
+        "uipathteam.xlexcel.activities.nuspec"
+      ]
     }
   },
   "projectFileDependencyGroups": {
     "": [],
     ".NETFramework,Version=v4.6.1": [
+      "AdvanceExcel >= 1.0.9 <= 1.0.9",
       "UiPath.Excel.Activities >= 2.8.5 <= 2.8.5",
       "UiPath.System.Activities >= 20.4.0 <= 20.4.0",
       "UiPath.Testing.Activities >= 1.0.0 <= 1.0.0",
-      "UiPath.UIAutomation.Activities >= 20.4.1 <= 20.4.1"
+      "UiPath.UIAutomation.Activities >= 20.4.1 <= 20.4.1",
+      "UiPath.UIAutomationNext.Activities >= 20.4.1 <= 20.4.1",
+      "UiPathTeam.Excel.Extensions.Activities >= 1.0.7107.42453 <= 1.0.7107.42453",
+      "UiPathTeam.ExcelSheetToImage.Activities >= 1.0.0.3 <= 1.0.0.3",
+      "UiPathTeam.XLExcel.Activities >= 1.0.6814.30102 <= 1.0.6814.30102"
     ]
   },
   "packageFolders": {
@@ -1693,6 +1995,11 @@
     "frameworks": {
       "net461": {
         "dependencies": {
+          "AdvanceExcel": {
+            "include": "Runtime",
+            "target": "Package",
+            "version": "[1.0.9, 1.0.9]"
+          },
           "UiPath.Excel.Activities": {
             "include": "Runtime",
             "target": "Package",
@@ -1712,6 +2019,26 @@
             "include": "Runtime",
             "target": "Package",
             "version": "[20.4.1, 20.4.1]"
+          },
+          "UiPath.UIAutomationNext.Activities": {
+            "include": "Runtime",
+            "target": "Package",
+            "version": "[20.4.1, 20.4.1]"
+          },
+          "UiPathTeam.Excel.Extensions.Activities": {
+            "include": "Runtime",
+            "target": "Package",
+            "version": "[1.0.7107.42453, 1.0.7107.42453]"
+          },
+          "UiPathTeam.ExcelSheetToImage.Activities": {
+            "include": "Runtime",
+            "target": "Package",
+            "version": "[1.0.0.3, 1.0.0.3]"
+          },
+          "UiPathTeam.XLExcel.Activities": {
+            "include": "Runtime",
+            "target": "Package",
+            "version": "[1.0.6814.30102, 1.0.6814.30102]"
           }
         }
       }

@@ -3,10 +3,15 @@
   "description": "Test Automation Project",
   "main": "Main.xaml",
   "dependencies": {
+    "AdvanceExcel": "[1.0.9]",
     "UiPath.Excel.Activities": "[2.8.5]",
     "UiPath.System.Activities": "[20.4.0]",
     "UiPath.Testing.Activities": "[1.0.0]",
-    "UiPath.UIAutomation.Activities": "[20.4.1]"
+    "UiPath.UIAutomation.Activities": "[20.4.1]",
+    "UiPath.UIAutomationNext.Activities": "[20.4.1]",
+    "UiPathTeam.Excel.Extensions.Activities": "[1.0.7107.42453]",
+    "UiPathTeam.ExcelSheetToImage.Activities": "[1.0.0.3]",
+    "UiPathTeam.XLExcel.Activities": "[1.0.6814.30102]"
   },
   "webServices": [],
   "schemaVersion": "4.0",
@@ -56,8 +61,58 @@
         "testCaseId": "36435574-5963-4390-8b6a-e5a5a3c2642c",
         "dataVariationFilePath": ".variations\\crmTestdata_Contacts_1.json",
         "fileName": "DD_NewContact.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "84e57f89-7a81-42df-a2d8-dfd86aa9a7ec",
+        "fileName": "OrangeHRM.xaml"
       }
     ]
   },
-  "expressionLanguage": "VisualBasic"
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "LoginLogout.xaml",
+      "uniqueId": "0fa275c6-c8bc-405b-9508-60693beb8172",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "NewContact.xaml",
+      "uniqueId": "0997aecc-9dd0-4c95-b4d9-a85f22dd5055",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "DD_NewContact.xaml",
+      "uniqueId": "36435574-5963-4390-8b6a-e5a5a3c2642c",
+      "input": [
+        {
+          "name": "F_Name",
+          "type": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+          "required": false,
+          "hasDefault": true
+        },
+        {
+          "name": "L_Name",
+          "type": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+          "required": false,
+          "hasDefault": true
+        },
+        {
+          "name": "M_Name",
+          "type": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+          "required": false,
+          "hasDefault": true
+        },
+        {
+          "name": "C_Company",
+          "type": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+          "required": false,
+          "hasDefault": true
+        }
+      ],
+      "output": []
+    }
+  ]
 }
