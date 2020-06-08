@@ -95,6 +95,40 @@
     },
     {
       "Package": {
+        "Id": "UiPath.UIAutomationNext.Activities",
+        "Version": "20.4.1"
+      },
+      "Assemblies": [
+        "C:\\Users\\sasidharl\\.nuget\\packages\\avalonedit/5.0.3\\lib/Net40/ICSharpCode.AvalonEdit.dll",
+        "C:\\Users\\sasidharl\\.nuget\\packages\\extended.wpf.toolkit/2.8.0\\lib/net40/Xceed.Wpf.AvalonDock.Themes.Aero.dll",
+        "C:\\Users\\sasidharl\\.nuget\\packages\\extended.wpf.toolkit/2.8.0\\lib/net40/Xceed.Wpf.AvalonDock.Themes.Metro.dll",
+        "C:\\Users\\sasidharl\\.nuget\\packages\\extended.wpf.toolkit/2.8.0\\lib/net40/Xceed.Wpf.AvalonDock.Themes.VS2010.dll",
+        "C:\\Users\\sasidharl\\.nuget\\packages\\extended.wpf.toolkit/2.8.0\\lib/net40/Xceed.Wpf.AvalonDock.dll",
+        "C:\\Users\\sasidharl\\.nuget\\packages\\extended.wpf.toolkit/2.8.0\\lib/net40/Xceed.Wpf.DataGrid.dll",
+        "C:\\Users\\sasidharl\\.nuget\\packages\\extended.wpf.toolkit/2.8.0\\lib/net40/Xceed.Wpf.Toolkit.dll",
+        "C:\\Users\\sasidharl\\.nuget\\packages\\newtonsoft.json/12.0.3\\lib/net45/Newtonsoft.Json.dll",
+        "C:\\Users\\sasidharl\\.nuget\\packages\\system.io.abstractions/3.0.10\\lib/net40/System.IO.Abstractions.dll",
+        "C:\\Users\\sasidharl\\.nuget\\packages\\system.threading.tasks.dataflow/4.10.0\\lib/netstandard2.0/System.Threading.Tasks.Dataflow.dll",
+        "C:\\Users\\sasidharl\\.nuget\\packages\\system.valuetuple/4.5.0\\lib/net461/System.ValueTuple.dll",
+        "C:\\Users\\sasidharl\\.nuget\\packages\\uipath/20.4.7422.14731\\lib/UiPath.Interop.dll",
+        "C:\\Users\\sasidharl\\.nuget\\packages\\uipath.ocr.contracts/2.6.0\\lib/net461/UiPath.OCR.Contracts.dll",
+        "C:\\Users\\sasidharl\\.nuget\\packages\\uipath.platform/20.4.0\\lib/net461/UiPath.Platform.dll",
+        "C:\\Users\\sasidharl\\.nuget\\packages\\uipath.telemetry.client/1.1.51\\lib/net461/TelemetryClient.dll",
+        "C:\\Users\\sasidharl\\.nuget\\packages\\uipath.uiautomationnext.activities/20.4.1\\lib/net461/UiPath.UIAutomationNext.Activities.Design.dll",
+        "C:\\Users\\sasidharl\\.nuget\\packages\\uipath.uiautomationnext.activities/20.4.1\\lib/net461/UiPath.UIAutomationNext.Activities.dll",
+        "C:\\Users\\sasidharl\\.nuget\\packages\\uipath.uiautomationnext.activities/20.4.1\\lib/net461/UiPath.UIAutomationNext.dll",
+        "C:\\Users\\sasidharl\\.nuget\\packages\\uipath.vision/2.0.3\\lib/net461/UiPath.Vision.AzureComputerVision.dll",
+        "C:\\Users\\sasidharl\\.nuget\\packages\\uipath.vision/2.0.3\\lib/net461/UiPath.Vision.Core.dll",
+        "C:\\Users\\sasidharl\\.nuget\\packages\\uipath.vision/2.0.3\\lib/net461/UiPath.Vision.GoogleCloud.dll",
+        "C:\\Users\\sasidharl\\.nuget\\packages\\uipath.vision/2.0.3\\lib/net461/UiPath.Vision.Microsoft.dll",
+        "C:\\Users\\sasidharl\\.nuget\\packages\\uipath.vision/2.0.3\\lib/net461/UiPath.Vision.MicrosoftCloud.dll",
+        "C:\\Users\\sasidharl\\.nuget\\packages\\uipath.vision/2.0.3\\lib/net461/UiPath.Vision.Tesseract.dll",
+        "C:\\Users\\sasidharl\\.nuget\\packages\\uipath.vision/2.0.3\\lib/net461/UiPath.Vision.dll"
+      ],
+      "Path": "C:\\Users\\sasidharl\\.nuget\\packages\\uipath.uiautomationnext.activities\\20.4.1"
+    },
+    {
+      "Package": {
         "Id": "UiPath.Excel.Activities",
         "Version": "2.8.5"
       },
@@ -103,20 +137,77 @@
         "C:\\Users\\sasidharl\\.nuget\\packages\\csvhelper/2.13.5\\lib/net40-client/CsvHelper.dll",
         "C:\\Users\\sasidharl\\.nuget\\packages\\documentformat.openxml/2.5.0\\lib/DocumentFormat.OpenXml.dll",
         "C:\\Users\\sasidharl\\.nuget\\packages\\microsoft.visualstudio.ole.interop/7.10.6071\\lib/Microsoft.VisualStudio.OLE.Interop.dll",
-        "C:\\Users\\sasidharl\\.nuget\\packages\\npoi/2.4.1\\lib/net45/NPOI.dll",
         "C:\\Users\\sasidharl\\.nuget\\packages\\npoi/2.4.1\\lib/net45/NPOI.OOXML.dll",
         "C:\\Users\\sasidharl\\.nuget\\packages\\npoi/2.4.1\\lib/net45/NPOI.OpenXml4Net.dll",
         "C:\\Users\\sasidharl\\.nuget\\packages\\npoi/2.4.1\\lib/net45/NPOI.OpenXmlFormats.dll",
+        "C:\\Users\\sasidharl\\.nuget\\packages\\npoi/2.4.1\\lib/net45/NPOI.dll",
         "C:\\Users\\sasidharl\\.nuget\\packages\\sharpziplib/1.0.0\\lib/net45/ICSharpCode.SharpZipLib.dll",
         "C:\\Users\\sasidharl\\.nuget\\packages\\uipath.excel.activities/2.8.5\\lib/net461/UiPath.Excel.Activities.Design.dll",
         "C:\\Users\\sasidharl\\.nuget\\packages\\uipath.excel.activities/2.8.5\\lib/net461/UiPath.Excel.Activities.dll",
         "C:\\Users\\sasidharl\\.nuget\\packages\\uipath.excel.activities/2.8.5\\lib/net461/UiPath.Excel.dll"
       ],
       "Path": "C:\\Users\\sasidharl\\.nuget\\packages\\uipath.excel.activities\\2.8.5"
+    },
+    {
+      "Package": {
+        "Id": "UiPathTeam.Excel.Extensions.Activities",
+        "Version": "1.0.7107.42453"
+      },
+      "Assemblies": [
+        "C:\\Users\\sasidharl\\.nuget\\packages\\uipathteam.excel.extensions.activities/1.0.7107.42453\\lib/net451/Excel.Activites.Design.dll",
+        "C:\\Users\\sasidharl\\.nuget\\packages\\uipathteam.excel.extensions.activities/1.0.7107.42453\\lib/net451/Excel.Activities.dll"
+      ],
+      "Path": "C:\\Users\\sasidharl\\.nuget\\packages\\uipathteam.excel.extensions.activities\\1.0.7107.42453"
+    },
+    {
+      "Package": {
+        "Id": "UiPathTeam.XLExcel.Activities",
+        "Version": "1.0.6814.30102"
+      },
+      "Assemblies": [
+        "C:\\Users\\sasidharl\\.nuget\\packages\\documentformat.openxml/2.5.0\\lib/DocumentFormat.OpenXml.dll",
+        "C:\\Users\\sasidharl\\.nuget\\packages\\microsoft.office.interop.excel/15.0.4795.1000\\lib/net20/Microsoft.Office.Interop.Excel.dll",
+        "C:\\Users\\sasidharl\\.nuget\\packages\\uipathteam.xlexcel.activities/1.0.6814.30102\\lib/net452/UiPathTeam.XLExcel.Activities.Design.dll",
+        "C:\\Users\\sasidharl\\.nuget\\packages\\uipathteam.xlexcel.activities/1.0.6814.30102\\lib/net452/UiPathTeam.XLExcel.Activities.dll",
+        "C:\\Users\\sasidharl\\.nuget\\packages\\uipathteam.xlexcel.activities/1.0.6814.30102\\lib/net452/UiPathTeam.XLExcel.dll"
+      ],
+      "Path": "C:\\Users\\sasidharl\\.nuget\\packages\\uipathteam.xlexcel.activities\\1.0.6814.30102"
+    },
+    {
+      "Package": {
+        "Id": "AdvanceExcel",
+        "Version": "1.0.9"
+      },
+      "Assemblies": [
+        "C:\\Users\\sasidharl\\.nuget\\packages\\advanceexcel/1.0.9\\lib/Advance Excel.dll",
+        "C:\\Users\\sasidharl\\.nuget\\packages\\microsoft.office.interop.excel/15.0.4795.1000\\lib/net20/Microsoft.Office.Interop.Excel.dll"
+      ],
+      "Path": "C:\\Users\\sasidharl\\.nuget\\packages\\advanceexcel\\1.0.9"
+    },
+    {
+      "Package": {
+        "Id": "UiPathTeam.ExcelSheetToImage.Activities",
+        "Version": "1.0.0.3"
+      },
+      "Assemblies": [
+        "C:\\Users\\sasidharl\\.nuget\\packages\\microsoft.office.interop.excel/15.0.4795.1000\\lib/net20/Microsoft.Office.Interop.Excel.dll",
+        "C:\\Users\\sasidharl\\.nuget\\packages\\uipathteam.excelsheettoimage.activities/1.0.0.3\\lib/net452/ExcelSheetToImage.dll"
+      ],
+      "Path": "C:\\Users\\sasidharl\\.nuget\\packages\\uipathteam.excelsheettoimage.activities\\1.0.0.3"
     }
   ],
   "Conflicts": [],
   "ResolvedDependencies": {
+    "AdvanceExcel": {
+      "Id": "AdvanceExcel",
+      "Version": "1.0.9",
+      "Dependencies": [
+        {
+          "Item1": "Microsoft.Office.Interop.Excel",
+          "Item2": "[15.0.4795.1000, )"
+        }
+      ]
+    },
     "AutoMapper": {
       "Id": "AutoMapper",
       "Version": "9.0.0",
@@ -166,6 +257,11 @@
           "Item2": "[6.0.4, )"
         }
       ]
+    },
+    "Microsoft.Office.Interop.Excel": {
+      "Id": "Microsoft.Office.Interop.Excel",
+      "Version": "15.0.4795.1000",
+      "Dependencies": []
     },
     "Microsoft.Rest.ClientRuntime": {
       "Id": "Microsoft.Rest.ClientRuntime",
@@ -397,6 +493,48 @@
         }
       ]
     },
+    "UiPath.UIAutomationNext.Activities": {
+      "Id": "UiPath.UIAutomationNext.Activities",
+      "Version": "20.4.1",
+      "Dependencies": [
+        {
+          "Item1": "UiPath",
+          "Item2": "[20.4.7422.14731, 20.4.7422.14731]"
+        },
+        {
+          "Item1": "UiPath.Platform",
+          "Item2": "[20.4.0, )"
+        },
+        {
+          "Item1": "UiPath.Vision",
+          "Item2": "[2.0.3, )"
+        },
+        {
+          "Item1": "AvalonEdit",
+          "Item2": "[5.0.3, )"
+        },
+        {
+          "Item1": "Extended.Wpf.Toolkit",
+          "Item2": "[2.8.0, )"
+        },
+        {
+          "Item1": "Newtonsoft.Json",
+          "Item2": "[11.0.2, )"
+        },
+        {
+          "Item1": "System.IO.Abstractions",
+          "Item2": "[3.0.10, )"
+        },
+        {
+          "Item1": "System.ValueTuple",
+          "Item2": "[4.5.0, )"
+        },
+        {
+          "Item1": "UiPath.Telemetry.Client",
+          "Item2": "[1.1.51, )"
+        }
+      ]
+    },
     "UiPath.Vision": {
       "Id": "UiPath.Vision",
       "Version": "2.0.3",
@@ -406,9 +544,48 @@
           "Item2": "[2.6.0, )"
         }
       ]
+    },
+    "UiPathTeam.Excel.Extensions.Activities": {
+      "Id": "UiPathTeam.Excel.Extensions.Activities",
+      "Version": "1.0.7107.42453",
+      "Dependencies": []
+    },
+    "UiPathTeam.ExcelSheetToImage.Activities": {
+      "Id": "UiPathTeam.ExcelSheetToImage.Activities",
+      "Version": "1.0.0.3",
+      "Dependencies": [
+        {
+          "Item1": "Microsoft.Office.Interop.Excel",
+          "Item2": "[15.0.4795.1000, )"
+        }
+      ]
+    },
+    "UiPathTeam.XLExcel.Activities": {
+      "Id": "UiPathTeam.XLExcel.Activities",
+      "Version": "1.0.6814.30102",
+      "Dependencies": [
+        {
+          "Item1": "DocumentFormat.OpenXml",
+          "Item2": "[2.5.0, )"
+        },
+        {
+          "Item1": "Microsoft.Office.Interop.Excel",
+          "Item2": "[15.0.4795.1000, )"
+        }
+      ]
     }
   },
   "AllPackages": [
+    {
+      "Package": {
+        "Id": "AdvanceExcel",
+        "Version": "1.0.9"
+      },
+      "Assemblies": [
+        "C:\\Users\\sasidharl\\.nuget\\packages\\advanceexcel\\1.0.9\\lib\\Advance Excel.dll"
+      ],
+      "Path": "C:\\Users\\sasidharl\\.nuget\\packages\\advanceexcel\\1.0.9"
+    },
     {
       "Package": {
         "Id": "AutoMapper",
@@ -496,6 +673,16 @@
     },
     {
       "Package": {
+        "Id": "Microsoft.Office.Interop.Excel",
+        "Version": "15.0.4795.1000"
+      },
+      "Assemblies": [
+        "C:\\Users\\sasidharl\\.nuget\\packages\\microsoft.office.interop.excel\\15.0.4795.1000\\lib\\net20\\Microsoft.Office.Interop.Excel.dll"
+      ],
+      "Path": "C:\\Users\\sasidharl\\.nuget\\packages\\microsoft.office.interop.excel\\15.0.4795.1000"
+    },
+    {
+      "Package": {
         "Id": "Microsoft.Rest.ClientRuntime",
         "Version": "2.3.20"
       },
@@ -540,10 +727,10 @@
         "Version": "2.4.1"
       },
       "Assemblies": [
-        "C:\\Users\\sasidharl\\.nuget\\packages\\npoi\\2.4.1\\lib\\net45\\NPOI.dll",
         "C:\\Users\\sasidharl\\.nuget\\packages\\npoi\\2.4.1\\lib\\net45\\NPOI.OOXML.dll",
         "C:\\Users\\sasidharl\\.nuget\\packages\\npoi\\2.4.1\\lib\\net45\\NPOI.OpenXml4Net.dll",
-        "C:\\Users\\sasidharl\\.nuget\\packages\\npoi\\2.4.1\\lib\\net45\\NPOI.OpenXmlFormats.dll"
+        "C:\\Users\\sasidharl\\.nuget\\packages\\npoi\\2.4.1\\lib\\net45\\NPOI.OpenXmlFormats.dll",
+        "C:\\Users\\sasidharl\\.nuget\\packages\\npoi\\2.4.1\\lib\\net45\\NPOI.dll"
       ],
       "Path": "C:\\Users\\sasidharl\\.nuget\\packages\\npoi\\2.4.1"
     },
@@ -713,6 +900,18 @@
     },
     {
       "Package": {
+        "Id": "UiPath.UIAutomationNext.Activities",
+        "Version": "20.4.1"
+      },
+      "Assemblies": [
+        "C:\\Users\\sasidharl\\.nuget\\packages\\uipath.uiautomationnext.activities\\20.4.1\\lib\\net461\\UiPath.UIAutomationNext.Activities.Design.dll",
+        "C:\\Users\\sasidharl\\.nuget\\packages\\uipath.uiautomationnext.activities\\20.4.1\\lib\\net461\\UiPath.UIAutomationNext.Activities.dll",
+        "C:\\Users\\sasidharl\\.nuget\\packages\\uipath.uiautomationnext.activities\\20.4.1\\lib\\net461\\UiPath.UIAutomationNext.dll"
+      ],
+      "Path": "C:\\Users\\sasidharl\\.nuget\\packages\\uipath.uiautomationnext.activities\\20.4.1"
+    },
+    {
+      "Package": {
         "Id": "UiPath.Vision",
         "Version": "2.0.3"
       },
@@ -721,6 +920,39 @@
         "C:\\Users\\sasidharl\\.nuget\\packages\\uipath.vision\\2.0.3\\lib\\net461\\UiPath.Vision.dll"
       ],
       "Path": "C:\\Users\\sasidharl\\.nuget\\packages\\uipath.vision\\2.0.3"
+    },
+    {
+      "Package": {
+        "Id": "UiPathTeam.Excel.Extensions.Activities",
+        "Version": "1.0.7107.42453"
+      },
+      "Assemblies": [
+        "C:\\Users\\sasidharl\\.nuget\\packages\\uipathteam.excel.extensions.activities\\1.0.7107.42453\\lib\\net451\\Excel.Activites.Design.dll",
+        "C:\\Users\\sasidharl\\.nuget\\packages\\uipathteam.excel.extensions.activities\\1.0.7107.42453\\lib\\net451\\Excel.Activities.dll"
+      ],
+      "Path": "C:\\Users\\sasidharl\\.nuget\\packages\\uipathteam.excel.extensions.activities\\1.0.7107.42453"
+    },
+    {
+      "Package": {
+        "Id": "UiPathTeam.ExcelSheetToImage.Activities",
+        "Version": "1.0.0.3"
+      },
+      "Assemblies": [
+        "C:\\Users\\sasidharl\\.nuget\\packages\\uipathteam.excelsheettoimage.activities\\1.0.0.3\\lib\\net452\\ExcelSheetToImage.dll"
+      ],
+      "Path": "C:\\Users\\sasidharl\\.nuget\\packages\\uipathteam.excelsheettoimage.activities\\1.0.0.3"
+    },
+    {
+      "Package": {
+        "Id": "UiPathTeam.XLExcel.Activities",
+        "Version": "1.0.6814.30102"
+      },
+      "Assemblies": [
+        "C:\\Users\\sasidharl\\.nuget\\packages\\uipathteam.xlexcel.activities\\1.0.6814.30102\\lib\\net452\\UiPathTeam.XLExcel.Activities.Design.dll",
+        "C:\\Users\\sasidharl\\.nuget\\packages\\uipathteam.xlexcel.activities\\1.0.6814.30102\\lib\\net452\\UiPathTeam.XLExcel.Activities.dll",
+        "C:\\Users\\sasidharl\\.nuget\\packages\\uipathteam.xlexcel.activities\\1.0.6814.30102\\lib\\net452\\UiPathTeam.XLExcel.dll"
+      ],
+      "Path": "C:\\Users\\sasidharl\\.nuget\\packages\\uipathteam.xlexcel.activities\\1.0.6814.30102"
     }
   ]
 }
