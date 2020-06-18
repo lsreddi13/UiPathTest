@@ -4,9 +4,11 @@
   "main": "Main.xaml",
   "dependencies": {
     "UiPath.Excel.Activities": "[2.8.5]",
+    "UiPath.Mail.Activities": "[1.8.5]",
     "UiPath.System.Activities": "[20.4.0]",
     "UiPath.Testing.Activities": "[1.0.0]",
-    "UiPath.UIAutomation.Activities": "[20.4.1]"
+    "UiPath.UIAutomation.Activities": "[20.4.1]",
+    "UiPathTeam.DynamicEmail.Activity": "[1.0.3]"
   },
   "webServices": [],
   "schemaVersion": "4.0",
@@ -39,7 +41,7 @@
       {
         "editingStatus": "Publishable",
         "testCaseId": "0997aecc-9dd0-4c95-b4d9-a85f22dd5055",
-        "fileName": "NewContact.xaml"
+        "fileName": "Demo1\\NewContact.xaml"
       },
       {
         "editingStatus": "InProgress",
@@ -49,13 +51,30 @@
       {
         "editingStatus": "InProgress",
         "testCaseId": "84116ba7-2219-40e7-a8cc-f9bc3cddc5f9",
-        "fileName": "NewContactFromXl.xaml"
+        "fileName": "Demo1\\NewContactFromXl.xaml"
       },
       {
         "editingStatus": "Publishable",
         "testCaseId": "36435574-5963-4390-8b6a-e5a5a3c2642c",
         "dataVariationFilePath": ".variations\\crmTestdata_Contacts_1.json",
-        "fileName": "DD_NewContact.xaml"
+        "fileName": "Demo\\DD_NewContact.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "77899e9c-2814-4595-8f14-6ae43dd0573e",
+        "dataVariationFilePath": ".variations\\crmTestdataAll_Contacts.json",
+        "fileName": "DataDrivenDemo\\DD_NewContactAllData.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "88055dea-6e4d-405a-ae38-822e8b663a49",
+        "dataVariationFilePath": ".variations\\crmTestdataAll_Contacts.json",
+        "fileName": "DataDrivenDemo\\DD_NewContactAllData_backup.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "418d408f-abb4-4699-824e-264301192461",
+        "fileName": "Demo\\CreateContactDDCase.xaml"
       }
     ]
   },
