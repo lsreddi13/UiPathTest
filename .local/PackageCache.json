@@ -23,6 +23,25 @@
     },
     {
       "Package": {
+        "Id": "UiPath.Mail.Activities",
+        "Version": "1.8.5"
+      },
+      "Assemblies": [
+        "C:\\Users\\sasidharl\\.nuget\\packages\\bouncycastle/1.8.5\\lib/BouncyCastle.Crypto.dll",
+        "C:\\Users\\sasidharl\\.nuget\\packages\\interop.domino.dll/1.0.0\\lib/Interop.Domino.dll",
+        "C:\\Users\\sasidharl\\.nuget\\packages\\microsoft.exchange.webservices/2.2.0\\lib/40/Microsoft.Exchange.WebServices.Auth.dll",
+        "C:\\Users\\sasidharl\\.nuget\\packages\\microsoft.exchange.webservices/2.2.0\\lib/40/Microsoft.Exchange.WebServices.dll",
+        "C:\\Users\\sasidharl\\.nuget\\packages\\system.valuetuple/4.5.0\\lib/net461/System.ValueTuple.dll",
+        "C:\\Users\\sasidharl\\.nuget\\packages\\uipath.mail.activities/1.8.5\\lib/net461/MailKit.dll",
+        "C:\\Users\\sasidharl\\.nuget\\packages\\uipath.mail.activities/1.8.5\\lib/net461/MimeKit.dll",
+        "C:\\Users\\sasidharl\\.nuget\\packages\\uipath.mail.activities/1.8.5\\lib/net461/UiPath.Mail.Activities.Design.dll",
+        "C:\\Users\\sasidharl\\.nuget\\packages\\uipath.mail.activities/1.8.5\\lib/net461/UiPath.Mail.Activities.dll",
+        "C:\\Users\\sasidharl\\.nuget\\packages\\uipath.mail.activities/1.8.5\\lib/net461/UiPath.Mail.dll"
+      ],
+      "Path": "C:\\Users\\sasidharl\\.nuget\\packages\\uipath.mail.activities\\1.8.5"
+    },
+    {
+      "Package": {
         "Id": "UiPath.System.Activities",
         "Version": "20.4.0"
       },
@@ -123,25 +142,6 @@
         "C:\\Users\\sasidharl\\.nuget\\packages\\uipathteam.dynamicemail.activity/1.0.3\\lib/DynamicEmailAttachment.dll"
       ],
       "Path": "C:\\Users\\sasidharl\\.nuget\\packages\\uipathteam.dynamicemail.activity\\1.0.3"
-    },
-    {
-      "Package": {
-        "Id": "UiPath.Mail.Activities",
-        "Version": "1.8.5"
-      },
-      "Assemblies": [
-        "C:\\Users\\sasidharl\\.nuget\\packages\\bouncycastle/1.8.5\\lib/BouncyCastle.Crypto.dll",
-        "C:\\Users\\sasidharl\\.nuget\\packages\\interop.domino.dll/1.0.0\\lib/Interop.Domino.dll",
-        "C:\\Users\\sasidharl\\.nuget\\packages\\microsoft.exchange.webservices/2.2.0\\lib/40/Microsoft.Exchange.WebServices.Auth.dll",
-        "C:\\Users\\sasidharl\\.nuget\\packages\\microsoft.exchange.webservices/2.2.0\\lib/40/Microsoft.Exchange.WebServices.dll",
-        "C:\\Users\\sasidharl\\.nuget\\packages\\system.valuetuple/4.5.0\\lib/net461/System.ValueTuple.dll",
-        "C:\\Users\\sasidharl\\.nuget\\packages\\uipath.mail.activities/1.8.5\\lib/net461/MailKit.dll",
-        "C:\\Users\\sasidharl\\.nuget\\packages\\uipath.mail.activities/1.8.5\\lib/net461/MimeKit.dll",
-        "C:\\Users\\sasidharl\\.nuget\\packages\\uipath.mail.activities/1.8.5\\lib/net461/UiPath.Mail.Activities.Design.dll",
-        "C:\\Users\\sasidharl\\.nuget\\packages\\uipath.mail.activities/1.8.5\\lib/net461/UiPath.Mail.Activities.dll",
-        "C:\\Users\\sasidharl\\.nuget\\packages\\uipath.mail.activities/1.8.5\\lib/net461/UiPath.Mail.dll"
-      ],
-      "Path": "C:\\Users\\sasidharl\\.nuget\\packages\\uipath.mail.activities\\1.8.5"
     }
   ],
   "Conflicts": [],
